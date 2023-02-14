@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cart-parent {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.cart-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+}
+
+.cart-title {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+}
+
+.cart-title p {
+    display: contents;
+    padding: 5px;
+    color: rgb(135,116,225);
+}
+.cart-title span {
+    color: var(--tg-theme-hint-color);
+    font-size: 0.8em;
+}
+
+
+.cart-img {
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.cart-item-price {
+    margin-left: auto;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+    
+}
+.cart-total-price {
+    font-size: 14px;
+    margin-left: auto;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+}

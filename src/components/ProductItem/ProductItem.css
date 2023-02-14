@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.product.item {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    background: var(--tg-theme-bg-color);
+    border-radius: 7px 7px 7px 7px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
+
+.img {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background: var(--tg-theme-button-color);
+    border-radius: 7px;
+}
+
+.description {
+    max-width: 100%;
+    max-height: fit-content;
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--tg-theme-hint-color);
+    font-family: 'Montserrat';
+}
+.title {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+}
+.price {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+}
+.price span {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--tg-theme-text-color);
+    font-family: 'Montserrat';
+}
+.add-btn {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    color: var(--tg-theme-button-text-color);
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count span {
+    padding: 5px;
+    color: var(--tg-theme-text-color);
+}
+.minus-btn {
+    border: none;
+    padding: 1px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.plus-btn {
+    border: none;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.plus-btn:active{-webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;}
+
+
+@-webkit-keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    }
+    @keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+}
+
+.minus-btn:active{-webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;}
+
+
+@-webkit-keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    }
+    @keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+}
